@@ -1,11 +1,13 @@
-import { View, Text } from 'react-native'
+import 'react-native-gesture-handler';
+import {  SafeAreaView } from 'react-native'
 import React from 'react'
+import { RootStack } from '@navigation'
 
 const App = () => {
   return (
-    <View>
-      <Text>App</Text>
-    </View>
+    <SafeAreaView style={{flex:1}}>
+     <RootStack />
+    </SafeAreaView>
   )
 }
 
