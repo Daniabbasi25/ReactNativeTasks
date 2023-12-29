@@ -1,7 +1,7 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 import { createDrawerNavigator } from '@react-navigation/drawer';
-import LoadImage from 'screens/LoadImage';
+import   LoadImage   from '../screens/LoadImage';
  
 
 const DrawerStack = createDrawerNavigator();
